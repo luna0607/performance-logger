@@ -3,7 +3,7 @@ const testPage = require('./testPage');
 const logger=require('./logger');
 
 (async () => {
-  let url="https://hotsoon.snssdk.com/magic/runtime/?id=3260";
+  let url="https://google.com";
   let browser = await puppeteer.launch();
   let page = await browser.newPage();
   logger(await testPage(page,url),"json");
