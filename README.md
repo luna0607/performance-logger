@@ -7,7 +7,7 @@ This is a personal version based on this blog.(https://michaljanaszek.com/blog/t
 
 这个项目是在这篇博客基础上的个人版本。
 
-以https://github.com/luna0607为例，它记录各种资源的加载时间、渲染时间，类似瀑布图，但生成的是json文件，且可以测试多个网页、测试有cache和无cache的加载速度。
+以https://github.com/luna0607 为例，它记录各种资源的加载时间、渲染时间，类似瀑布图，但生成的是json文件，且可以测试多个网页、测试有cache和无cache的加载速度。
 
 ## Usage
 
