@@ -5,7 +5,7 @@ This is a personal version based on this blog.(https://michaljanaszek.com/blog/t
 
 使用puppeteer来记录网页的性能，你可以在输出文件中看见一个网页的各种资源加载的时间以及其他信息。（类似于Chrome开发者工具）
 
-这个项目是在这篇博客基础上的个人版本。
+这个项目是在个项目上的个人版本。https://github.com/Everettss/test-website-performance-with-puppeteer
 
 它记录各种资源的加载时间、渲染时间，类似瀑布图，但生成的是json文件，且可以测试多个网页、测试有cache和无cache的加载速度。
 
