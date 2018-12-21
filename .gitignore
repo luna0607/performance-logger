@@ -1,1 +1,4 @@
 node_modules
+trace.json
+log.json
+package-lock.json
