@@ -11,11 +11,10 @@ This is a personal version based on this blog.(https://michaljanaszek.com/blog/t
 
 ## Usage
 
-修改index.js的第六行，把url改成你要测试的网页地址即可。
-
 ```
 npm install
-node index.js
+npm link
+performance-logger https://google.com
  ```
 #### Output
 

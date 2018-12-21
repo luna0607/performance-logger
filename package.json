@@ -6,9 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "performance-logger": "./index.js"
+  },
   "author": "liyuqian",
   "license": "ISC",
   "dependencies": {
+    "commander": "^2.19.0",
     "puppeteer": "^1.11.0"
   }
 }
