@@ -8,6 +8,7 @@ async function logger( content, type) {
         if(err){
             console.log(err);
         }else{
+            fs.unlinkSync("trace.json");
             console.log("输出完成")
         }
     });

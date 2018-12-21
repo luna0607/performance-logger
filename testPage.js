@@ -32,12 +32,12 @@ const {
       info.time=fileEnd-fileStart;
       delete info.resourceTracingStartTime;
       delete info.resourceTracingEndTime;
-      if(info.url.endsWith(".css")){
+      if(info.url.endsWith(".css")||info.url.endsWith(".ttf")){
         cssFile.push(info);
       }else      if(info.url.endsWith(".js")){
         jsFile.push(info);
       }else
-      if(info.url.endsWith(".jpg")||info.url.endsWith(".jpeg")||info.url.indexOf(".image?")!=-1||info.url.indexOf("data:image/png;base64,")!=-1){
+      if(info.url.endsWith(".jpg")||info.url.endsWith(".png")||info.url.endsWith(".gif")||info.url.endsWith(".jpeg")||info.url.indexOf(".image?")!=-1||info.url.indexOf("data:image/png;base64,")!=-1){
         image.push(info);
       }else
       if(info.url.indexOf("/slardar/")!=-1||info.url.indexOf("list?rdn")!=-1){
